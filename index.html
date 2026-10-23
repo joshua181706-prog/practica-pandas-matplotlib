@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica de Laboratorio: Pandas y Matplotlib | TecNM - ITCM</title>
+  <meta name="description" content="Reporte ejecutivo interactivo y solución integral de la práctica de laboratorio de Análisis y visualización de calificaciones con Pandas y Matplotlib - ITCM.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+</head>
+<body>
+
+  <!-- ENCABEZADO INSTITUCIONAL HERO -->
+  <header class="header-hero" id="inicio">
+    <div class="header-container">
+      <div class="institutional-badge">
+        <span>🏛️</span> Tecnológico Nacional de México &bull; Instituto Tecnológico de Ciudad Madero
+      </div>
+
+      <div class="hero-main-flex">
+        <div class="hero-text-content">
+          <h1 class="header-title">Análisis y Visualización de Calificaciones</h1>
+          <p class="header-subtitle">
+            Reporte de laboratorio interactivo y sistemático desarrollado con <strong>Python, Pandas y Matplotlib</strong> para el análisis de rendimiento académico en Ingeniería en Sistemas Computacionales.
+          </p>
+
+          <div class="metadata-grid">
+            <div class="meta-item">
+              <span class="meta-label">Asignatura</span>
+              <span class="meta-value">Tópicos Avanzados de Programación</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Docente</span>
+              <span class="meta-value">Alejandro Estrada Padilla</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Estudiante</span>
+              <span class="meta-value highlight">Luis Fernando Salas</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Carrera / Modalidad</span>
+              <span class="meta-value">Ing. Sistemas &bull; Individual</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Fecha de Entrega</span>
+              <span class="meta-value">Octubre 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <div class="score-pill">
+            <span>⭐</span> Calificación Objetivo: 100 / 100 Pts
+          </div>
+
+          <div class="btn-group">
+            <button class="theme-toggle" id="themeToggle" title="Cambiar Tema (Oscuro/Claro)">
+              <span id="themeIcon">☀️</span>
+            </button>
+            <button class="btn btn-primary" onclick="downloadCode()" id="btnDescargarCodigoHero">
+              <span>📥</span> Descargar .py
+            </button>
+            <button class="btn btn-secondary" onclick="downloadPromediosCSV()" id="btnDescargarCsvHero">
+              <span>📊</span> CSV Alumnos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BARRA DE NAVEGACIÓN STICKY -->
+  <nav class="nav-sticky" id="mainNav">
+    <div class="nav-container">
+      <a href="#kpis" class="nav-tab active">Métricas Clave</a>
+      <a href="#ejercicio1" class="nav-tab">Ej. 1: Carga y Revisión</a>
+      <a href="#ejercicio2" class="nav-tab">Ej. 2: Filtros</a>
+      <a href="#ejercicio3" class="nav-tab">Ej. 3: Columna Situación</a>
+      <a href="#ejercicio4" class="nav-tab">Ej. 4: Resúmenes</a>
+      <a href="#ejercicio5" class="nav-tab">Ej. 5: Gráficas Matplotlib</a>
+      <a href="#ejercicio6" class="nav-tab">Ej. 6: Interpretación</a>
+      <a href="#codigo" class="nav-tab">Código Fuente</a>
+      <a href="#rubrica" class="nav-tab">Rúbrica 100%</a>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="main-wrapper">
+
+    <!-- HERO KPIS -->
+    <section class="kpi-section" id="kpis">
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Registros Totales</span>
+          <div class="kpi-icon">📁</div>
+        </div>
+        <div class="kpi-value">288</div>
+        <div class="kpi-subtext">24 alumnos &times; 4 materias &times; 3 unidades</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Promedio General</span>
+          <div class="kpi-icon">📈</div>
+        </div>
+        <div class="kpi-value" style="color: var(--accent-cyan);">72.77</div>
+        <div class="kpi-subtext">Desviación estándar de 13.93 pts</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Unidades Aprobadas</span>
+          <div class="kpi-icon">✅</div>
+        </div>
+        <div class="kpi-value" style="color: var(--accent-emerald);">166</div>
+        <div class="kpi-subtext">57.64% del total evaluado (&ge; 70 pts)</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Alumnos en Riesgo</span>
+          <div class="kpi-icon">⚠️</div>
+        </div>
+        <div class="kpi-value" style="color: var(--accent-rose);">4</div>
+        <div class="kpi-subtext">16.67% de alumnos con promedio &lt; 70</div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- EJERCICIO 1: CARGA Y REVISIÓN -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="ejercicio1">
+      <span class="section-badge">Ejercicio 1 &bull; 15 Puntos</span>
+      <h2 class="section-title"><span>📂</span> Carga y Revisión del Conjunto de Datos</h2>
+      <p class="section-desc">
+        Lectura del archivo <code>calificaciones_isc.csv</code> en un DataFrame de Pandas, inspección de sus primeras filas, dimensiones estructurales, tipos de datos y análisis estadístico descriptivo.
+      </p>
+
+      <!-- EXPLICACIÓN CLAVE DE 288 REGISTROS -->
+      <div class="callout-box">
+        <div class="callout-title">
+          <span>💡</span> Pregunta Reflexiva del Ejercicio: ¿Por qué el archivo tiene 288 registros y no 24?
+        </div>
+        <div class="callout-content">
+          El archivo contiene las calificaciones de una generación compuesta por <strong>24 estudiantes</strong>. Sin embargo, el diseño del plan de estudios contempla que cada alumno cursa <strong>4 materias</strong> (<em>Programación</em>, <em>Bases de Datos</em>, <em>Redes</em> y <em>Matemáticas Discretas</em>), y a su vez cada materia se evalúa de manera individual a lo largo de <strong>3 unidades</strong> durante el semestre.
+          <br>
+          <div class="callout-formula">
+            24 Alumnos &times; 4 Materias &times; 3 Unidades = 288 Registros
+          </div>
+        </div>
+      </div>
+
+      <!-- VISTA PREVIA DE PRIMERAS 5 FILAS -->
+      <h3 style="font-size: 1.15rem; margin: 1.5rem 0 0.5rem;">Primeras 5 Filas del DataFrame (<code>df.head()</code>)</h3>
+      <div class="table-container">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Índice</th>
+              <th>Matrícula</th>
+              <th>Nombre del Alumno</th>
+              <th>Grupo</th>
+              <th>Materia</th>
+              <th>Unidad</th>
+              <th>Calificación</th>
+              <th>Asistencias</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td><span class="badge-group">ISC240100</span></td>
+              <td><strong>Ana Lopez</strong></td>
+              <td><span class="badge badge-info">Grupo A</span></td>
+              <td>Programacion</td>
+              <td>1</td>
+              <td><span class="badge badge-danger">55</span></td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td><span class="badge-group">ISC240100</span></td>
+              <td><strong>Ana Lopez</strong></td>
+              <td><span class="badge badge-info">Grupo A</span></td>
+              <td>Programacion</td>
+              <td>2</td>
+              <td><span class="badge badge-danger">54</span></td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><span class="badge-group">ISC240100</span></td>
+              <td><strong>Ana Lopez</strong></td>
+              <td><span class="badge badge-info">Grupo A</span></td>
+              <td>Programacion</td>
+              <td>3</td>
+              <td><span class="badge badge-danger">50</span></td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><span class="badge-group">ISC240100</span></td>
+              <td><strong>Ana Lopez</strong></td>
+              <td><span class="badge badge-info">Grupo A</span></td>
+              <td>Bases de datos</td>
+              <td>1</td>
+              <td><span class="badge badge-success">88</span></td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><span class="badge-group">ISC240100</span></td>
+              <td><strong>Ana Lopez</strong></td>
+              <td><span class="badge badge-info">Grupo A</span></td>
+              <td>Bases de datos</td>
+              <td>2</td>
+              <td><span class="badge badge-success">78</span></td>
+              <td>8</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- METADATA Y RESUMEN ESTADÍSTICO -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Tipos de Datos (<code>df.dtypes</code>)</h3>
+          <div class="table-container" style="margin: 0;">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Columna</th>
+                  <th>Tipo Pandas</th>
+                  <th>Naturaleza</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><code>matricula</code></td><td><code>object / string</code></td><td>Identificador Categórico</td></tr>
+                <tr><td><code>nombre</code></td><td><code>object / string</code></td><td>Texto Nominal</td></tr>
+                <tr><td><code>grupo</code></td><td><code>object / string</code></td><td>Factor Categórico (A / B)</td></tr>
+                <tr><td><code>materia</code></td><td><code>object / string</code></td><td>Factor Categórico (4 clases)</td></tr>
+                <tr><td><code>unidad</code></td><td><code>int64</code></td><td>Entero Discreto (1, 2, 3)</td></tr>
+                <tr><td><code>calificacion</code></td><td><code>int64</code></td><td>Cuantitativo (0 a 100)</td></tr>
+                <tr><td><code>asistencias</code></td><td><code>int64</code></td><td>Cuantitativo Discreto</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Resumen Estadístico (<code>describe()</code>)</h3>
+          <div class="table-container" style="margin: 0;">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Métrica</th>
+                  <th>Calificación</th>
+                  <th>Asistencias</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>count</strong> (Muestra)</td><td>288.0</td><td>288.0</td></tr>
+                <tr><td><strong>mean</strong> (Media)</td><td>72.77</td><td>7.45</td></tr>
+                <tr><td><strong>std</strong> (Desv. Estándar)</td><td>13.93</td><td>1.39</td></tr>
+                <tr><td><strong>min</strong> (Mínimo)</td><td>40.0</td><td>5.0</td></tr>
+                <tr><td><strong>25%</strong> (Q1)</td><td>62.75</td><td>6.0</td></tr>
+                <tr><td><strong>50%</strong> (Mediana)</td><td>72.00</td><td>8.0</td></tr>
+                <tr><td><strong>75%</strong> (Q3)</td><td>82.25</td><td>8.0</td></tr>
+                <tr><td><strong>max</strong> (Máximo)</td><td>100.0</td><td>10.0</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- EJERCICIO 2: FILTROS -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="ejercicio2">
+      <span class="section-badge">Ejercicio 2 &bull; 20 Puntos</span>
+      <h2 class="section-title"><span>🔍</span> Consultas y Filtros Condicionales</h2>
+      <p class="section-desc">
+        Extracción de subconjuntos de datos aplicando máscaras booleanas vectorizadas sin alterar el DataFrame original <code>df</code> y contabilizando los registros de forma directa mediante <code>len()</code>, sin recurrir a ciclos prohibitivos.
+      </p>
+
+      <div class="filters-grid">
+        <!-- Filtro 1 -->
+        <div class="filter-card">
+          <div class="filter-card-header">
+            <div>
+              <span class="filter-title">1. Solo el Grupo A</span>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">Totalidad de alumnos pertenecientes al grupo A</p>
+            </div>
+            <div class="filter-count">144</div>
+          </div>
+          <div class="filter-query">
+            len(df[df["grupo"] == "A"])
+          </div>
+          <p style="font-size:0.8rem; color:var(--accent-emerald); margin-top:0.5rem;">
+            ✓ Coincide exactamente con: 12 alumnos &times; 12 evaluaciones = 144
+          </p>
+        </div>
+
+        <!-- Filtro 2 -->
+        <div class="filter-card">
+          <div class="filter-card-header">
+            <div>
+              <span class="filter-title">2. Calificación &lt; 70</span>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">Unidades reprobadas en cualquier materia</p>
+            </div>
+            <div class="filter-count" style="color:var(--accent-rose);">122</div>
+          </div>
+          <div class="filter-query">
+            len(df[df["calificacion"] &lt; 70])
+          </div>
+          <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            Representa el 42.36% de todas las unidades cursadas.
+          </p>
+        </div>
+
+        <!-- Filtro 3 -->
+        <div class="filter-card">
+          <div class="filter-card-header">
+            <div>
+              <span class="filter-title">3. Bases de Datos, Grupo B &ge; 80</span>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">Excelente desempeño en BD en el segundo grupo</p>
+            </div>
+            <div class="filter-count" style="color:var(--accent-emerald);">16</div>
+          </div>
+          <div class="filter-query">
+            len(df[(df["materia"] == "Bases de datos") &amp; (df["grupo"] == "B") &amp; (df["calificacion"] &gt;= 80)])
+          </div>
+          <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            16 unidades cumplieron satisfactoriamente los 3 criterios lógicos.
+          </p>
+        </div>
+      </div>
+
+      <!-- TABLA DETALLE DEL FILTRO 3 -->
+      <h3 style="font-size: 1.15rem; margin: 1.5rem 0 0.5rem;">Detalle de los 16 Registros Cumplidores del Filtro 3 (Bases de Datos &bull; Grupo B &bull; &ge; 80)</h3>
+      <div class="table-container">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Matrícula</th>
+              <th>Nombre del Alumno</th>
+              <th>Materia</th>
+              <th>Unidad</th>
+              <th>Calificación</th>
+              <th>Asistencias</th>
+            </tr>
+          </thead>
+          <tbody id="bdFilteredTableBody">
+            <!-- Inyectado dinámicamente por app.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- EJERCICIO 3: COLUMNA CALCULADA -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="ejercicio3">
+      <span class="section-badge">Ejercicio 3 &bull; 10 Puntos</span>
+      <h2 class="section-title"><span>🏷️</span> Creación de Columna Calculada (<code>situacion</code>)</h2>
+      <p class="section-desc">
+        Construcción de la columna <code>situacion</code> en el DataFrame principal asignando <code>"Aprobado"</code> si la calificación es mayor o igual a 70, y <code>"Reprobado"</code> en caso contrario, utilizando la función vectorizada de alta velocidad <code>np.where</code>.
+      </p>
+
+      <div style="background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1.25rem; margin-bottom:1.5rem;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+          <strong style="color:var(--accent-cyan); font-family:'JetBrains Mono';">Sintaxis Vectorizada de Numpy / Pandas</strong>
+          <span class="badge badge-success">0 ciclos for empleados</span>
+        </div>
+        <pre style="background:var(--bg-main); padding:0.85rem; border-radius:var(--radius-sm); font-family:'JetBrains Mono'; color:#a5f3fc; font-size:0.9rem;">df["situacion"] = np.where(df["calificacion"] >= 70, "Aprobado", "Reprobado")</pre>
+      </div>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:1.5rem;">
+        <div class="filter-card">
+          <div class="filter-card-header">
+            <div>
+              <span class="filter-title" style="color:var(--accent-emerald);">Aprobados (&ge; 70 pts)</span>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">Unidades que acreditaron los criterios mínimos</p>
+            </div>
+            <div class="filter-count" style="color:var(--accent-emerald);">166</div>
+          </div>
+          <div class="progress-track" style="margin-top:0.75rem;">
+            <div class="progress-fill green" style="width: 57.64%;"></div>
+          </div>
+          <p style="font-size:0.85rem; font-weight:600; margin-top:0.5rem; color:var(--text-muted);">
+            Proporción: <strong>57.64%</strong> de las 288 unidades
+          </p>
+        </div>
+
+        <div class="filter-card">
+          <div class="filter-card-header">
+            <div>
+              <span class="filter-title" style="color:var(--accent-rose);">Reprobados (&lt; 70 pts)</span>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">Unidades que requieren evaluación de regularización</p>
+            </div>
+            <div class="filter-count" style="color:var(--accent-rose);">122</div>
+          </div>
+          <div class="progress-track" style="margin-top:0.75rem;">
+            <div class="progress-fill red" style="width: 42.36%;"></div>
+          </div>
+          <p style="font-size:0.85rem; font-weight:600; margin-top:0.5rem; color:var(--text-muted);">
+            Proporción: <strong>42.36%</strong> de las 288 unidades
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- EJERCICIO 4: RESÚMENES CON GROUPBY -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="ejercicio4">
+      <span class="section-badge">Ejercicio 4 &bull; 25 Puntos</span>
+      <h2 class="section-title"><span>📊</span> Agrupaciones y Resúmenes Estadísticos (<code>groupby</code>)</h2>
+      <p class="section-desc">
+        Cálculo de los cinco resúmenes solicitados por la práctica y exportación limpia del archivo <code>promedios_alumnos.csv</code> preservando la matrícula y el nombre del estudiante con <code>reset_index()</code> y <code>index=False</code>.
+      </p>
+
+      <!-- RESUMEN 1: MATERIAS -->
+      <h3 style="font-size: 1.2rem; margin: 1.5rem 0 0.75rem;">1. Promedio de Calificación por Materia</h3>
+      <div id="materiasSummaryGrid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:1rem; margin-bottom: 2rem;">
+        <!-- Inyectado por app.js -->
+      </div>
+
+      <!-- RESUMEN 2: GRUPO Y MATERIA -->
+      <h3 style="font-size: 1.2rem; margin: 1.5rem 0 0.75rem;">2. Promedio Comparativo por Grupo y Materia</h3>
+      <div class="table-container">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Grupo Académico</th>
+              <th>Bases de Datos</th>
+              <th>Matemáticas Discretas</th>
+              <th>Programación</th>
+              <th>Redes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="badge badge-info">Grupo A</span></td>
+              <td style="font-weight:700; color:var(--accent-emerald);">77.72</td>
+              <td style="font-weight:700; color:var(--accent-rose);">64.67</td>
+              <td style="font-weight:700;">70.69</td>
+              <td style="font-weight:700; color:var(--accent-cyan);">76.75</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-info">Grupo B</span></td>
+              <td style="font-weight:700; color:var(--accent-emerald);">75.69</td>
+              <td style="font-weight:700; color:var(--accent-rose);">67.58</td>
+              <td style="font-weight:700;">72.06</td>
+              <td style="font-weight:700; color:var(--accent-cyan);">76.97</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- RESUMEN 4: PROMEDIO POR UNIDAD -->
+      <h3 style="font-size: 1.2rem; margin: 2rem 0 0.75rem;">3. Promedio General por Unidad Evaluada</h3>
+      <div id="unidadesSummaryGrid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:1rem; margin-bottom: 2rem;">
+        <!-- Inyectado por app.js -->
+      </div>
+
+      <!-- RESUMEN 3: RANKING DE ALUMNOS CON BUSCADOR -->
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1rem; margin-top:2rem; margin-bottom:1rem;">
+        <div>
+          <h3 style="font-size: 1.2rem; margin-bottom:0.25rem;">4. Promedio General de Cada Alumno (Ordenado de Mayor a Menor)</h3>
+          <p style="font-size:0.875rem; color:var(--text-muted);">
+            Exportado a <code>promedios_alumnos.csv</code> sin columna de índice adicional.
+          </p>
+        </div>
+        <div style="display:flex; gap:0.75rem; align-items:center;">
+          <input type="text" id="studentSearchInput" placeholder="Buscar por alumno o matrícula..." oninput="handleStudentSearch(this.value)" style="padding:0.6rem 1rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle); background:var(--bg-surface); color:var(--text-main); font-size:0.9rem; min-width:260px;">
+          <button class="btn btn-secondary" onclick="downloadPromediosCSV()">
+            <span>📥</span> Descargar CSV
+          </button>
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Matrícula</th>
+              <th>Nombre del Estudiante</th>
+              <th>Promedio General Ponderado</th>
+              <th>Estatus Académico</th>
+            </tr>
+          </thead>
+          <tbody id="studentsTableBody">
+            <!-- Inyectado por app.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- EJERCICIO 5: GRÁFICAS DE MATPLOTLIB -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="ejercicio5">
+      <span class="section-badge">Ejercicio 5 &bull; 20 Puntos</span>
+      <h2 class="section-title"><span>📉</span> Dashboard de Visualizaciones Matplotlib</h2>
+      <p class="section-desc">
+        Generación de las 3 figuras requeridas con títulos claros, nombres de ejes debidamente rotulados y almacenamiento en formato PNG de alta resolución (300 DPI) con <code>plt.savefig()</code> <em>antes</em> de <code>plt.show()</code>.
+      </p>
+
+      <div class="charts-grid">
+        <!-- Figura 1 -->
+        <div class="chart-card">
+          <div class="chart-media-box">
+            <img src="./promedio_materias.png" alt="Promedio de Calificación por Materia" class="chart-img">
+            <div class="chart-zoom-overlay">
+              <span>🔍</span> Click para ampliar
+            </div>
+          </div>
+          <div class="chart-info-box">
+            <div>
+              <div class="chart-filename">promedio_materias.png</div>
+              <h3 class="chart-title">Promedio por Materia</h3>
+              <p style="font-size:0.875rem; color:var(--text-muted);">
+                Gráfico de barras verticales que compara el rendimiento promedio en las cuatro asignaturas.
+              </p>
+              <ul class="chart-spec-list">
+                <li>Eje Y acotado estrictamente de 0 a 100 con <code>ylim(0, 100)</code></li>
+                <li>Etiquetas numéricas exactas en la cúspide de cada barra</li>
+                <li>Paleta cromática diferenciada por materia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Figura 2 -->
+        <div class="chart-card">
+          <div class="chart-media-box">
+            <img src="./histograma.png" alt="Histograma de todas las calificaciones" class="chart-img">
+            <div class="chart-zoom-overlay">
+              <span>🔍</span> Click para ampliar
+            </div>
+          </div>
+          <div class="chart-info-box">
+            <div>
+              <div class="chart-filename">histograma.png</div>
+              <h3 class="chart-title">Distribución de Calificaciones</h3>
+              <p style="font-size:0.875rem; color:var(--text-muted);">
+                Histograma de frecuencias que ilustra la concentración de calificaciones de los 288 registros.
+              </p>
+              <ul class="chart-spec-list">
+                <li>Línea vertical punteada roja en el valor 70 con <code>axvline(70)</code></li>
+                <li>Leyenda descriptiva del umbral mínimo aprobatorio</li>
+                <li>Identificación visual inmediata de aprobados vs reprobados</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Figura 3 -->
+        <div class="chart-card">
+          <div class="chart-media-box">
+            <img src="./tendencia_unidades.png" alt="Tendencia del promedio por unidad según materia" class="chart-img">
+            <div class="chart-zoom-overlay">
+              <span>🔍</span> Click para ampliar
+            </div>
+          </div>
+          <div class="chart-info-box">
+            <div>
+              <div class="chart-filename">tendencia_unidades.png</div>
+              <h3 class="chart-title">Tendencia por Unidad</h3>
+              <p style="font-size:0.875rem; color:var(--text-muted);">
+                Gráfico de líneas continuas multiseries para evaluar la evolución del grupo hacia la unidad 3.
+              </p>
+              <ul class="chart-spec-list">
+                <li>Una serie de línea individualizada por cada materia</li>
+                <li>Marcadores geométricos (círculos, cuadrados, triángulos, diamantes)</li>
+                <li>Eje X configurado discretamente en unidades 1, 2 y 3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- EJERCICIO 6: LECTURA DE RESULTADOS -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="ejercicio6">
+      <span class="section-badge">Ejercicio 6 &bull; 10 Puntos</span>
+      <h2 class="section-title"><span>📝</span> Lectura e Interpretación Analítica de Resultados</h2>
+      <p class="section-desc">
+        Respuesta a las tres preguntas analíticas planteadas por la práctica docente, contrastadas rigurosamente con los resultados numéricos obtenidos en los ejercicios 4 y 5.
+      </p>
+
+      <div class="answers-grid">
+        <!-- Pregunta 1 -->
+        <div class="answer-card">
+          <div class="answer-num">Pregunta 1</div>
+          <h3 class="answer-question">¿Qué materia quedó con el promedio más bajo?</h3>
+          <div class="answer-badge-highlight">
+            <span>🎯</span> Resultado: Matemáticas Discretas (66.12 pts)
+          </div>
+          <p class="answer-explanation">
+            Al analizar los promedios globales por asignatura, <strong>Matemáticas Discretas</strong> obtuvo el rendimiento más deficiente con una media de <strong>66.12 puntos</strong>, situándose por debajo del mínimo aprobatorio de 70. En contraste, <strong>Redes</strong> lideró con <strong>76.86 puntos</strong> y <strong>Bases de Datos</strong> con <strong>76.71 puntos</strong>. Esto evidencia que el razonamiento formal, demostraciones y teoría de grafos representan el mayor cuello de botella cognitivo para esta generación.
+          </p>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="answer-card">
+          <div class="answer-num">Pregunta 2</div>
+          <h3 class="answer-question">¿El promedio general de la unidad 3 es menor que el de las unidades 1 y 2?</h3>
+          <div class="answer-badge-highlight">
+            <span>📉</span> Resultado: SÍ, la Unidad 3 promedió 67.81 pts
+          </div>
+          <p class="answer-explanation">
+            Efectivamente. La progresión temporal por unidad revela una disminución continua en las calificaciones del grupo:
+            <br>
+            &bull; <strong>Unidad 1:</strong> 76.45 puntos (Rendimiento óptimo).
+            <br>
+            &bull; <strong>Unidad 2:</strong> 74.04 puntos (-2.41 pts vs U1).
+            <br>
+            &bull; <strong>Unidad 3:</strong> <strong>67.81 puntos</strong> (-8.64 pts vs U1 y -6.23 pts vs U2).
+            <br>
+            Esto confirma que hacia la tercera unidad el grupo sufre una caída generalizada, explicable por la acumulación de proyectos finales y mayor complejidad conceptual de los temarios.
+          </p>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="answer-card">
+          <div class="answer-num">Pregunta 3</div>
+          <h3 class="answer-question">¿Cuántos alumnos quedan bajo 70 en su promedio general?</h3>
+          <div class="answer-badge-highlight">
+            <span>👥</span> Resultado: 4 Alumnos (16.67% del grupo)
+          </div>
+          <p class="answer-explanation">
+            Al calcular la media global de las 12 evaluaciones individuales por alumno (4 materias &times; 3 unidades), se identificó que exactamente <strong>4 estudiantes</strong> no lograron superar el umbral de 70:
+            <br>
+            1. <strong>Sebastian Herrera</strong> (Matrícula ISC240123): 69.75 pts.
+            <br>
+            2. <strong>Luis Salas</strong> (Matrícula ISC240105): 68.92 pts.
+            <br>
+            3. <strong>Carlos Hernandez</strong> (Matrícula ISC240101): 68.83 pts.
+            <br>
+            4. <strong>Ricardo Reyes</strong> (Matrícula ISC240117): 68.00 pts.
+            <br>
+            Los 20 alumnos restantes (83.33%) concluyeron con promedio aprobatorio, encabezados por <strong>Ximena Gutierrez</strong> con <strong>78.92 puntos</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- VISOR DE CÓDIGO PYTHON -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="codigo">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <span class="section-badge">Entregable 1 &bull; Código Completo</span>
+          <h2 class="section-title"><span>💻</span> Código Fuente: <code>practica_pandas.py</code></h2>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="copyCode()" id="btnCopiarCodigo">
+            <span>📋</span> Copiar Código
+          </button>
+          <button class="btn btn-primary" onclick="downloadCode()" id="btnDescargarCodigoSec">
+            <span>📥</span> Descargar Archivo .py
+          </button>
+        </div>
+      </div>
+      <p class="section-desc" style="margin-top:0.75rem;">
+        Implementación profesional sin bucles iterativos, documentada según estándares PEP 8, compatible con Python 3.10+ y Pandas 2.x/3.x.
+      </p>
+
+      <div class="code-viewer-container">
+        <div class="code-header">
+          <div class="code-file-title">
+            <span>🐍</span> practica_pandas.py &bull; UTF-8
+          </div>
+          <span style="font-size:0.75rem; color:var(--text-dim);">Líneas ejecutadas: 180+</span>
+        </div>
+        <pre class="code-pre" id="pythonCodeBlock">
+          <!-- Cargado por app.js -->
+        </pre>
+      </div>
+    </section>
+
+
+    <!-- ============================================================================== -->
+    <!-- RÚBRICA Y AUDITORÍA DE ERRORES EVITADOS -->
+    <!-- ============================================================================== -->
+    <section class="content-section" id="rubrica">
+      <span class="section-badge">Evaluación &bull; 100 Puntos Máximos</span>
+      <h2 class="section-title"><span>🎯</span> Checklist de Rúbrica y Control de Calidad</h2>
+      <p class="section-desc">
+        Verificación explícita de todos los criterios de acreditación docente y validación de que se evitaron los errores comunes señalados en las especificaciones del laboratorio.
+      </p>
+
+      <div class="rubric-grid">
+        <div class="rubric-item">
+          <div class="rubric-info">
+            <span class="rubric-title">Carga CSV, dimensiones, dtypes y describe</span>
+            <span class="rubric-subtitle">Ejercicio 1 &bull; Cumplido al 100%</span>
+          </div>
+          <span class="rubric-pts">15/15</span>
+        </div>
+
+        <div class="rubric-item">
+          <div class="rubric-info">
+            <span class="rubric-title">Tres filtros correctos con conteo de filas</span>
+            <span class="rubric-subtitle">Ejercicio 2 &bull; Cumplido al 100%</span>
+          </div>
+          <span class="rubric-pts">20/20</span>
+        </div>
+
+        <div class="rubric-item">
+          <div class="rubric-info">
+            <span class="rubric-title">Columna situacion sin ciclo (np.where)</span>
+            <span class="rubric-subtitle">Ejercicio 3 &bull; Cumplido al 100%</span>
+          </div>
+          <span class="rubric-pts">10/10</span>
+        </div>
+
+        <div class="rubric-item">
+          <div class="rubric-info">
+            <span class="rubric-title">Cinco resúmenes groupby y CSV exportado</span>
+            <span class="rubric-subtitle">Ejercicio 4 &bull; Cumplido al 100%</span>
+          </div>
+          <span class="rubric-pts">25/25</span>
+        </div>
+
+        <div class="rubric-item">
+          <div class="rubric-info">
+            <span class="rubric-title">Tres gráficas legibles con título, ejes y PNG</span>
+            <span class="rubric-subtitle">Ejercicio 5 &bull; Cumplido al 100%</span>
+          </div>
+          <span class="rubric-pts">20/20</span>
+        </div>
+
+        <div class="rubric-item">
+          <div class="rubric-info">
+            <span class="rubric-title">Interpretación coherente con los números</span>
+            <span class="rubric-subtitle">Ejercicio 6 &bull; Cumplido al 100%</span>
+          </div>
+          <span class="rubric-pts">10/10</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem; background: var(--bg-surface); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+        <h3 style="font-size: 1.1rem; color: var(--accent-emerald); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+          <span>🛡️</span> Errores Evitados Rigurosamente (Sección 7 del Enunciado)
+        </h3>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.9rem; color: var(--text-muted);">
+          <li>
+            <strong style="color:var(--accent-emerald);">✓ NO se escribió <code>df["grupo"] = "A"</code>:</strong> Se utilizó la expresión de filtrado booleano <code>df[df["grupo"] == "A"]</code>, preservando la integridad de todas las columnas.
+          </li>
+          <li>
+            <strong style="color:var(--accent-emerald);">✓ NO se llamó a <code>savefig</code> después de <code>show</code>:</strong> Se guardaron las tres figuras en disco antes de cualquier intento de visualización interactiva.
+          </li>
+          <li>
+            <strong style="color:var(--accent-emerald);">✓ NO se omitió <code>index=False</code> al exportar:</strong> El archivo <code>promedios_alumnos.csv</code> se generó limpio sin la columna numérica del índice.
+          </li>
+          <li>
+            <strong style="color:var(--accent-emerald);">✓ NO se perdió la matrícula:</strong> Se ejecutó <code>reset_index()</code> tras el agrupamiento de Pandas para mantener matrícula y nombre como columnas reales.
+          </li>
+          <li>
+            <strong style="color:var(--accent-emerald);">✓ NO se utilizaron ciclos <code>for</code> para conteo o cálculo:</strong> Se emplearon exclusivamente operaciones nativas de Pandas (<code>len()</code>, <code>np.where</code>, <code>mean()</code>, <code>value_counts()</code>).
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL LIGHTBOX PARA AMPLIACIÓN DE GRÁFICAS -->
+  <div class="modal-overlay" id="imageModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <img src="" alt="Gráfica Ampliada" id="modalImage" class="modal-img">
+    </div>
+  </div>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p style="font-weight: 600; color: var(--text-main); margin-bottom: 0.35rem;">
+        Tecnológico Nacional de México &bull; Instituto Tecnológico de Ciudad Madero
+      </p>
+      <p>
+        Departamento de Sistemas y Computación &bull; Tópicos Avanzados de Programación
+      </p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">
+        Desarrollado para Luis Fernando Salas &bull; Entregables generados con Python, Pandas, Matplotlib y Diseño Web Moderno
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3206 @@
+{
+  "records": [
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 55,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 54,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 50,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 88,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 78,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 71,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 74,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 98,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 81,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 63,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 75,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 66,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 47,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 57,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 71,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 100,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 76,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 67,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 79,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 67,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 66,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 69,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 53,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 74,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 56,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 53,
+      "asistencias": 10,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 69,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 92,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 82,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 73,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 73,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 69,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 85,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 74,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 62,
+      "asistencias": 10,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 53,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 82,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 86,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 80,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 70,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 75,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 68,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 75,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 87,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 89,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 75,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 58,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 62,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 95,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 73,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 62,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 78,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 84,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 63,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 70,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 88,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 75,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 71,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 81,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 53,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 69,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 76,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 70,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 62,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 74,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 72,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 83,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 79,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 69,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 43,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 67,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 63,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 100,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 69,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 71,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 97,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 90,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 94,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 58,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 62,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 63,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 48,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 68,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 50,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 95,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 61,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 62,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 93,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 62,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 52,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 80,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 79,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 81,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 77,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 72,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 53,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 77,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 76,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 56,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 100,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 86,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 61,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 89,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 89,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 76,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 66,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 57,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 61,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 78,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 72,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 87,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 90,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 67,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 60,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 84,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 72,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 80,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 76,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 66,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 51,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 52,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 74,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 49,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 69,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 82,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 75,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 61,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 91,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 85,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 77,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 75,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 70,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 100,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 85,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 76,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 71,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 76,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 100,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 51,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 69,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 86,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 59,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 77,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "grupo": "A",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 63,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 64,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 43,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 69,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 70,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 78,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 82,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 90,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 69,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 61,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 52,
+      "asistencias": 10,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 80,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 92,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 88,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 89,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 57,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 88,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 90,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 40,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 63,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 98,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 50,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 90,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 47,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 49,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 80,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 72,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 61,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 100,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 62,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 72,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 86,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 79,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 62,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 61,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 79,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 75,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 78,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 60,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 59,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 81,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 81,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 82,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 75,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 87,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 82,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 88,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 68,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 67,
+      "asistencias": 10,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 72,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 60,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 96,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 98,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 91,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 74,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 65,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 89,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 68,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 75,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 60,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 66,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 66,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 65,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 70,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 61,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 60,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 64,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 75,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 88,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 68,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 69,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 63,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 67,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 62,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 70,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 72,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 85,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 80,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 75,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 84,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 100,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 60,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 100,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 56,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 40,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 66,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 76,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 93,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 69,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 86,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 56,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 100,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 92,
+      "asistencias": 10,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 64,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 46,
+      "asistencias": 10,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 86,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 61,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 91,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 72,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 67,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 75,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 88,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 76,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 85,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 54,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 88,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 91,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 69,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 91,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 98,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 81,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 86,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 96,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 55,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 71,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 88,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 98,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 51,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 46,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 67,
+      "asistencias": 10,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 40,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 72,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 77,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 53,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 81,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 93,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 67,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 66,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 74,
+      "asistencias": 6,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 56,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 97,
+      "asistencias": 5,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 68,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 53,
+      "asistencias": 9,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 1,
+      "calificacion": 76,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 2,
+      "calificacion": 70,
+      "asistencias": 9,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Programacion",
+      "unidad": 3,
+      "calificacion": 63,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 1,
+      "calificacion": 74,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 2,
+      "calificacion": 71,
+      "asistencias": 7,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Bases de datos",
+      "unidad": 3,
+      "calificacion": 53,
+      "asistencias": 7,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 1,
+      "calificacion": 97,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 2,
+      "calificacion": 84,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Redes",
+      "unidad": 3,
+      "calificacion": 75,
+      "asistencias": 8,
+      "situacion": "Aprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 1,
+      "calificacion": 68,
+      "asistencias": 8,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 2,
+      "calificacion": 54,
+      "asistencias": 6,
+      "situacion": "Reprobado"
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "grupo": "B",
+      "materia": "Matematicas discretas",
+      "unidad": 3,
+      "calificacion": 52,
+      "asistencias": 5,
+      "situacion": "Reprobado"
+    }
+  ],
+  "promedio_materia": {
+    "Bases de datos": 76.71,
+    "Matematicas discretas": 66.12,
+    "Programacion": 71.38,
+    "Redes": 76.86
+  },
+  "promedio_grupo_materia": {
+    "Bases de datos": {
+      "A": 77.72,
+      "B": 75.69
+    },
+    "Matematicas discretas": {
+      "A": 64.67,
+      "B": 67.58
+    },
+    "Programacion": {
+      "A": 70.69,
+      "B": 72.06
+    },
+    "Redes": {
+      "A": 76.75,
+      "B": 76.97
+    }
+  },
+  "promedio_alumnos": [
+    {
+      "matricula": "ISC240120",
+      "nombre": "Ximena Gutierrez",
+      "promedio": 78.92
+    },
+    {
+      "matricula": "ISC240116",
+      "nombre": "Natalia Cruz",
+      "promedio": 76.17
+    },
+    {
+      "matricula": "ISC240111",
+      "nombre": "Alejandro Castro",
+      "promedio": 76.08
+    },
+    {
+      "matricula": "ISC240115",
+      "nombre": "Mateo Mendoza",
+      "promedio": 75.67
+    },
+    {
+      "matricula": "ISC240103",
+      "nombre": "Juan Martinez",
+      "promedio": 75.58
+    },
+    {
+      "matricula": "ISC240119",
+      "nombre": "Gabriel Jimenez",
+      "promedio": 74.58
+    },
+    {
+      "matricula": "ISC240108",
+      "nombre": "Fernanda Diaz",
+      "promedio": 74.5
+    },
+    {
+      "matricula": "ISC240104",
+      "nombre": "Sofia Rodriguez",
+      "promedio": 74.42
+    },
+    {
+      "matricula": "ISC240114",
+      "nombre": "Andrea Vargas",
+      "promedio": 74.08
+    },
+    {
+      "matricula": "ISC240118",
+      "nombre": "Elena Morales",
+      "promedio": 73.67
+    },
+    {
+      "matricula": "ISC240109",
+      "nombre": "Diego Torres",
+      "promedio": 73.58
+    },
+    {
+      "matricula": "ISC240121",
+      "nombre": "Emilio Ruiz",
+      "promedio": 73.08
+    },
+    {
+      "matricula": "ISC240106",
+      "nombre": "Valeria Gomez",
+      "promedio": 72.5
+    },
+    {
+      "matricula": "ISC240107",
+      "nombre": "Jorge Ramirez",
+      "promedio": 72.25
+    },
+    {
+      "matricula": "ISC240110",
+      "nombre": "Camila Morales",
+      "promedio": 71.67
+    },
+    {
+      "matricula": "ISC240122",
+      "nombre": "Mariana Chavez",
+      "promedio": 71.42
+    },
+    {
+      "matricula": "ISC240100",
+      "nombre": "Ana Lopez",
+      "promedio": 71.08
+    },
+    {
+      "matricula": "ISC240112",
+      "nombre": "Paola Ortiz",
+      "promedio": 70.83
+    },
+    {
+      "matricula": "ISC240113",
+      "nombre": "Daniel Silva",
+      "promedio": 70.75
+    },
+    {
+      "matricula": "ISC240102",
+      "nombre": "Maria Garcia",
+      "promedio": 70.08
+    },
+    {
+      "matricula": "ISC240123",
+      "nombre": "Sebastian Herrera",
+      "promedio": 69.75
+    },
+    {
+      "matricula": "ISC240105",
+      "nombre": "Luis Salas",
+      "promedio": 68.92
+    },
+    {
+      "matricula": "ISC240101",
+      "nombre": "Carlos Hernandez",
+      "promedio": 68.83
+    },
+    {
+      "matricula": "ISC240117",
+      "nombre": "Ricardo Reyes",
+      "promedio": 68.0
+    }
+  ],
+  "promedio_unidad": {
+    "1": 76.45,
+    "2": 74.04,
+    "3": 67.81
+  },
+  "conteo_situacion": {
+    "Aprobado": 166,
+    "Reprobado": 122
+  },
+  "filtros": {
+    "grupo_a": 144,
+    "menor_70": 122,
+    "bd_b_80": 16,
+    "bd_b_80_records": [
+      {
+        "matricula": "ISC240112",
+        "nombre": "Paola Ortiz",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 3,
+        "calificacion": 82,
+        "asistencias": 7,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240113",
+        "nombre": "Daniel Silva",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 1,
+        "calificacion": 88,
+        "asistencias": 7,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240113",
+        "nombre": "Daniel Silva",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 2,
+        "calificacion": 90,
+        "asistencias": 5,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240114",
+        "nombre": "Andrea Vargas",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 1,
+        "calificacion": 100,
+        "asistencias": 7,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240115",
+        "nombre": "Mateo Mendoza",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 1,
+        "calificacion": 81,
+        "asistencias": 7,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240115",
+        "nombre": "Mateo Mendoza",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 2,
+        "calificacion": 81,
+        "asistencias": 8,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240115",
+        "nombre": "Mateo Mendoza",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 3,
+        "calificacion": 82,
+        "asistencias": 9,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240116",
+        "nombre": "Natalia Cruz",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 1,
+        "calificacion": 98,
+        "asistencias": 8,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240116",
+        "nombre": "Natalia Cruz",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 2,
+        "calificacion": 91,
+        "asistencias": 8,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240118",
+        "nombre": "Elena Morales",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 1,
+        "calificacion": 85,
+        "asistencias": 5,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240118",
+        "nombre": "Elena Morales",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 2,
+        "calificacion": 80,
+        "asistencias": 8,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240119",
+        "nombre": "Gabriel Jimenez",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 2,
+        "calificacion": 86,
+        "asistencias": 9,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240120",
+        "nombre": "Ximena Gutierrez",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 2,
+        "calificacion": 88,
+        "asistencias": 6,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240121",
+        "nombre": "Emilio Ruiz",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 1,
+        "calificacion": 96,
+        "asistencias": 7,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240122",
+        "nombre": "Mariana Chavez",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 1,
+        "calificacion": 81,
+        "asistencias": 8,
+        "situacion": "Aprobado"
+      },
+      {
+        "matricula": "ISC240122",
+        "nombre": "Mariana Chavez",
+        "grupo": "B",
+        "materia": "Bases de datos",
+        "unidad": 2,
+        "calificacion": 93,
+        "asistencias": 6,
+        "situacion": "Aprobado"
+      }
+    ]
+  }
+}
